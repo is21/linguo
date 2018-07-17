@@ -61,4 +61,4 @@ typings/
 .next
 
 # Google API Keys
-google-api-keys.json
+google-cloud-key.json

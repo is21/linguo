@@ -1,0 +1,39 @@
+{
+  "words": [
+  {
+    "word": "ask",
+    "improperTag": "NOUN",
+    "reprimand": "_ask_ is a verb"
+  },
+  {
+    "word": "learnings",
+    "improperTag": false,
+    "reprimand": "_learnings_ isn't a real word"
+  },
+  {
+    "word": "hone in",
+    "improperTag": false,
+    "reprimand": "_home_ in"
+  },
+  {
+    "word": "on the same page",
+    "improperTag": false,
+    "reprimand": "a bit worn out, don't you think?"
+  },
+  {
+    "word": "leverage",
+    "improperTag": false,
+    "reprimand": "ugh"
+  },
+  {
+    "word": "double click",
+    "improperTag": false,
+    "reprimand": "you better be talking about actually double clicking a mouse"
+  },
+  {
+    "word": "take it offline",
+    "improperTag": false,
+    "reprimand": "haven't heard that before"
+  }
+]
+}
