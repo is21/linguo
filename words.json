@@ -21,11 +21,6 @@
     "reprimand": "a bit worn out, don't you think?"
   },
   {
-    "word": "leverage",
-    "improperTag": false,
-    "reprimand": "ugh"
-  },
-  {
     "word": "double click",
     "improperTag": false,
     "reprimand": "you better be talking about actually double clicking a mouse"
@@ -34,6 +29,11 @@
     "word": "take it offline",
     "improperTag": false,
     "reprimand": "haven't heard that before"
+  },
+  {
+    "word": "leverage",
+    "improperTag": "VERB",
+    "reprimand": "_leverage_ is a noun."
   }
 ]
 }
