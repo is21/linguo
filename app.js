@@ -9,7 +9,10 @@ const slackEvents = createSlackEventAdapter(process.env.SLACK_VERIFICATION_TOKEN
 
 const dotenv = require('dotenv').config();
 const language = require('@google-cloud/language');
-const client = new language.LanguageServiceClient();
+const client = new language.LanguageServiceClient({
+  projectId: process.env.GOOGLE_PROJECT_ID,
+  keyFilename: JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS)
+});
 
 const { WebClient } = require('@slack/client');
 const token = process.env.SLACK_TOKEN;
