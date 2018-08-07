@@ -11,7 +11,7 @@ const dotenv = require('dotenv').config();
 const language = require('@google-cloud/language');
 const client = new language.LanguageServiceClient({
   projectId: process.env.GOOGLE_PROJECT_ID,
-  keyFilename: process.env.GOOGLE_APPLICATION_CREDENTIALS
+  credentials: JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS)
 });
 
 const { WebClient } = require('@slack/client');
