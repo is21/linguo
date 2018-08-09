@@ -3,8 +3,6 @@ Linguo is a Slack bot that corrects corporate-speak. Linguo uses the Google Clou
 
 ## Install Linguo
 
-----
-
 ### 1. Deploy this repository to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
