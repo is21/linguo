@@ -12,10 +12,10 @@ Visit the [Slack Apps](https://api.slack.com/apps) page and create a new app. Gi
 ### 3. Subscribe to Slack events
 Visit the Events Subscriptions page for your Slack app and verify your request URL. Yours will look something like `https://random-name-1234.herokuapp.com/slack/events`.
 
-Once you have verified your request URL, subscribe to the [messages.channels](https://api.slack.com/events/message.channels) event.
+Once you have verified your request URL, subscribe to the [messages.channels](https://api.slack.com/events/message.channels) event. This will allow Linguo to listen to messages in your public slack channels.
 
 ### 4. Create a Google Cloud project
-[Sign up for Google Cloud account](http://console.cloud.google.com/) and then create a new project by visiting the [Manage Resources](https://console.cloud.google.com/cloud-resource-manager) page. You can name it whatever you'd like.
+[Sign up for Google Cloud account](http://console.cloud.google.com/) and then create a new project by visiting the [Manage Resources](https://console.cloud.google.com/cloud-resource-manager) page. You can name it whatever you'd like. The Google Cloud NLP API analyzes the syntax of words to determine if they have been used correctly.
 
 ### 5. Add API credentials to your Heroku app
 Now that you have set up all of the necessary accounts, add your API credentials to your Heroku app.

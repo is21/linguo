@@ -1,0 +1,19 @@
+{
+  "name": "Linguo",
+  "description": "Linguo is a Slack bot that corrects corporate-speak.",
+  "repository": "https://github.com/is21/linguo",
+  "env": {
+    "GOOGLE_APPLICATION_CREDENTIALS": {
+      "description": "The Google Cloud API key. Should be a json object."
+    },
+    "GOOGLE_PROJECT_ID": {
+      "description": "The project ID of your Google Cloud API project. "
+    },
+    "SLACK_TOKEN": {
+      "description": "Your Slack API token."
+    },
+    "SLACK_VERIFICATION_TOKEN": {
+      "description": "Your Slack API verification token."
+    }
+  }
+}

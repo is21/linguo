@@ -23,7 +23,7 @@
   {
     "word": "double click",
     "improperTag": false,
-    "reprimand": "you better be talking about actually double clicking a mouse"
+    "reprimand": "you better be talking about double clicking a mouse"
   },
   {
     "word": "take it offline",
@@ -33,7 +33,22 @@
   {
     "word": "leverage",
     "improperTag": "VERB",
-    "reprimand": "_leverage_ is a noun."
-  }
+    "reprimand": "_leverage_ is a noun"
+  },
+  {
+    "word": "synergy",
+    "improperTag": false,
+    "reprimand": "corporate-speak alert!"
+  },
+  {
+    "word": "synergies",
+    "improperTag": false,
+    "reprimand": "corporate-speak alert!"
+  },
+  {
+    "word": "comprised of",
+    "improperTag": false,
+    "reprimand": "_comprises_"
+  },
 ]
 }
