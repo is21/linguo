@@ -4,16 +4,20 @@
   "repository": "https://github.com/is21/linguo",
   "env": {
     "GOOGLE_APPLICATION_CREDENTIALS": {
-      "description": "The Google Cloud API key. Should be a json object."
+      "description": "The Google Cloud API key. Should be a json object.",
+      "required": "false"
     },
     "GOOGLE_PROJECT_ID": {
-      "description": "The project ID of your Google Cloud API project. "
+      "description": "The project ID of your Google Cloud API project. ",
+      "required": "false"
     },
     "SLACK_TOKEN": {
-      "description": "Your Slack API token."
+      "description": "Your Slack API token.",
+      "required": "false"
     },
     "SLACK_VERIFICATION_TOKEN": {
-      "description": "Your Slack API verification token."
+      "description": "Your Slack API verification token.",
+      "required": "false"
     }
   }
 }
