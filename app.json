@@ -5,19 +5,19 @@
   "env": {
     "GOOGLE_APPLICATION_CREDENTIALS": {
       "description": "The Google Cloud API key. Should be a json object.",
-      "required": "false"
+      "required": false
     },
     "GOOGLE_PROJECT_ID": {
       "description": "The project ID of your Google Cloud API project. ",
-      "required": "false"
+      "required": false
     },
     "SLACK_TOKEN": {
       "description": "Your Slack API token.",
-      "required": "false"
+      "required": false
     },
     "SLACK_VERIFICATION_TOKEN": {
       "description": "Your Slack API verification token.",
-      "required": "false"
+      "required": false
     }
   }
 }
