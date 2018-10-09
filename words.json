@@ -21,11 +21,6 @@
     "reprimand": "a bit worn out, don't you think?"
   },
   {
-    "word": "double click",
-    "improperTag": false,
-    "reprimand": "you better be talking about double clicking a mouse"
-  },
-  {
     "word": "take it offline",
     "improperTag": false,
     "reprimand": "haven't heard that before"
@@ -49,6 +44,11 @@
     "word": "comprised of",
     "improperTag": false,
     "reprimand": "_comprises_"
+  },
+  {
+    "word": "one pager",
+    "improperTag": false,
+    "reprimand": "How many pagers, again?"
   }
 ]
 }
