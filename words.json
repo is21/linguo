@@ -54,6 +54,11 @@
     "word": "chomping at the bit",
     "improperTag": false,
     "reprimand": "_champing_ at the bit"
+  },
+  {
+    "word": "lift",
+    "improperTag": "NOUN",
+    "reprimand": "_lift_ is a verb"
   }
 ]
 }
